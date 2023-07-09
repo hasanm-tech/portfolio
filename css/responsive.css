@@ -1,0 +1,67 @@
+@media only screen and (min-width: 516px) and (max-width:792px){
+    .product .itemBox{
+        width: 200px !important;
+    }
+}
+@media screen and (max-width: 767px) and (min-width:200px){
+    .inner{
+        flex-direction: column !important;
+    }
+    .hero-info{
+        flex-basis: 100% !important;
+        order: 2 !important;
+        padding-top: 50px !important;
+        padding-left: 20px !important;
+    }
+    .hero-img{
+        flex-basis: 100% !important;
+        order: 1 !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .hero-img img{
+        width:250px !important;
+        height: 250px !important;
+    }
+    .imgBox img{
+        display: flex !important;
+        width:100% !important;
+    }
+    .imgBox {
+        height: 150px !important;
+    }
+    .d-custom{
+        display: none;
+    }
+
+.clinet ul li {
+    width: 17px !important;
+    height: 17px !important;
+    border-radius: 50%;
+    margin: 5px !important;
+}
+.clinet ul li img{
+    width: 17px !important;
+    height: 17px !important;
+}
+.res-d{
+    display: none !important;
+}
+.social-area ul {
+    text-align: left !important;
+}
+#header_area .top-header-area {
+    padding: 10px 40px;
+}
+.product .itemBox{
+    margin:10px 0 !important;
+    width: 320px !important;
+    padding: 10px;
+}
+footer h6 {
+    font-size: 13px !important;
+}
+.clinet {
+    padding: 50px 0 !important;
+}
+}
